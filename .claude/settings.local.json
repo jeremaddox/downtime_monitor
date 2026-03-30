@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(psql --version)",
+      "Bash(systemctl status:*)",
+      "Read(//run/postgresql/**)",
+      "Bash(pg_isready)"
+    ]
+  }
+}
