@@ -115,7 +115,7 @@ def upsert_target_state(cur, target_id, result):
 
 def run_check(target):
     """Run the appropriate check for a target. Returns (target, result)."""
-    host    = target["ip_address"] or target["hostname"]
+    host    = (target["ip_address"] or "").split("/")[0] or target["hostname"]
     proto   = target["check_protocol"]
     port    = target["check_port"]
     path    = target["check_path"]

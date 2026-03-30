@@ -18,7 +18,7 @@ LAB_TARGETS = [
     {
         "name":           "Laptop",
         "hostname":       "localhost",
-        "ip_address":     "127.0.0.1",
+        "ip_address":     "192.168.1.54",
         "target_type":    "workstation",
         "location":       "Lab",
         "department":     "IT",
@@ -31,7 +31,7 @@ LAB_TARGETS = [
     {
         "name":           "RPi-5",
         "hostname":       "rpi5.local",
-        "ip_address":     "192.168.1.10",   # <-- update
+        "ip_address":     "192.168.1.201",
         "target_type":    "server",
         "location":       "Lab",
         "department":     "IT",
@@ -44,7 +44,7 @@ LAB_TARGETS = [
     {
         "name":           "RPi-4",
         "hostname":       "rpi4.local",
-        "ip_address":     "192.168.1.11",   # <-- update
+        "ip_address":     "192.168.1.202",
         "target_type":    "server",
         "location":       "Lab",
         "department":     "IT",
@@ -109,7 +109,7 @@ LAB_TARGETS = [
     {
         "name":           "HP-ProCurve-2520",
         "hostname":       "switch.local",
-        "ip_address":     "192.168.1.1",    # <-- update
+        "ip_address":     "192.168.1.2",
         "target_type":    "switch",
         "location":       "Lab",
         "department":     "IT",
